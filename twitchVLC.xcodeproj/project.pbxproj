@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6CDB02A180F9B2200C6E736 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CDB029180F9B2200C6E736 /* Cocoa.framework */; };
+		E6CDB034180F9B2200C6E736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB032180F9B2200C6E736 /* InfoPlist.strings */; };
+		E6CDB036180F9B2200C6E736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDB035180F9B2200C6E736 /* main.m */; };
+		E6CDB03A180F9B2200C6E736 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB038180F9B2200C6E736 /* Credits.rtf */; };
+		E6CDB03D180F9B2200C6E736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDB03C180F9B2200C6E736 /* AppDelegate.m */; };
+		E6CDB040180F9B2300C6E736 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB03E180F9B2300C6E736 /* MainMenu.xib */; };
+		E6CDB042180F9B2300C6E736 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB041180F9B2300C6E736 /* Images.xcassets */; };
+		E6CDB049180F9B2300C6E736 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CDB048180F9B2300C6E736 /* XCTest.framework */; };
+		E6CDB04A180F9B2300C6E736 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CDB029180F9B2200C6E736 /* Cocoa.framework */; };
+		E6CDB052180F9B2300C6E736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB050180F9B2300C6E736 /* InfoPlist.strings */; };
+		E6CDB054180F9B2300C6E736 /* twitchVLCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDB053180F9B2300C6E736 /* twitchVLCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6CDB04B180F9B2300C6E736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CDB01E180F9B2200C6E736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CDB025180F9B2200C6E736;
+			remoteInfo = twitchVLC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6CDB026180F9B2200C6E736 /* twitchVLC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitchVLC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CDB029180F9B2200C6E736 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E6CDB02C180F9B2200C6E736 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E6CDB02D180F9B2200C6E736 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E6CDB02E180F9B2200C6E736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6CDB031180F9B2200C6E736 /* twitchVLC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitchVLC-Info.plist"; sourceTree = "<group>"; };
+		E6CDB033180F9B2200C6E736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6CDB035180F9B2200C6E736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6CDB037180F9B2200C6E736 /* twitchVLC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twitchVLC-Prefix.pch"; sourceTree = "<group>"; };
+		E6CDB039180F9B2200C6E736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E6CDB03B180F9B2200C6E736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6CDB03C180F9B2200C6E736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6CDB03F180F9B2300C6E736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E6CDB041180F9B2300C6E736 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6CDB047180F9B2300C6E736 /* twitchVLCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitchVLCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CDB048180F9B2300C6E736 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E6CDB04F180F9B2300C6E736 /* twitchVLCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitchVLCTests-Info.plist"; sourceTree = "<group>"; };
+		E6CDB051180F9B2300C6E736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6CDB053180F9B2300C6E736 /* twitchVLCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitchVLCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6CDB023180F9B2200C6E736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CDB02A180F9B2200C6E736 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CDB044180F9B2300C6E736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CDB04A180F9B2300C6E736 /* Cocoa.framework in Frameworks */,
+				E6CDB049180F9B2300C6E736 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6CDB01D180F9B2200C6E736 = {
+			isa = PBXGroup;
+			children = (
+				E6CDB02F180F9B2200C6E736 /* twitchVLC */,
+				E6CDB04D180F9B2300C6E736 /* twitchVLCTests */,
+				E6CDB028180F9B2200C6E736 /* Frameworks */,
+				E6CDB027180F9B2200C6E736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6CDB027180F9B2200C6E736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDB026180F9B2200C6E736 /* twitchVLC.app */,
+				E6CDB047180F9B2300C6E736 /* twitchVLCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6CDB028180F9B2200C6E736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDB029180F9B2200C6E736 /* Cocoa.framework */,
+				E6CDB048180F9B2300C6E736 /* XCTest.framework */,
+				E6CDB02B180F9B2200C6E736 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6CDB02B180F9B2200C6E736 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDB02C180F9B2200C6E736 /* AppKit.framework */,
+				E6CDB02D180F9B2200C6E736 /* CoreData.framework */,
+				E6CDB02E180F9B2200C6E736 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E6CDB02F180F9B2200C6E736 /* twitchVLC */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDB03B180F9B2200C6E736 /* AppDelegate.h */,
+				E6CDB03C180F9B2200C6E736 /* AppDelegate.m */,
+				E6CDB03E180F9B2300C6E736 /* MainMenu.xib */,
+				E6CDB041180F9B2300C6E736 /* Images.xcassets */,
+				E6CDB030180F9B2200C6E736 /* Supporting Files */,
+			);
+			path = twitchVLC;
+			sourceTree = "<group>";
+		};
+		E6CDB030180F9B2200C6E736 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDB031180F9B2200C6E736 /* twitchVLC-Info.plist */,
+				E6CDB032180F9B2200C6E736 /* InfoPlist.strings */,
+				E6CDB035180F9B2200C6E736 /* main.m */,
+				E6CDB037180F9B2200C6E736 /* twitchVLC-Prefix.pch */,
+				E6CDB038180F9B2200C6E736 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6CDB04D180F9B2300C6E736 /* twitchVLCTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDB053180F9B2300C6E736 /* twitchVLCTests.m */,
+				E6CDB04E180F9B2300C6E736 /* Supporting Files */,
+			);
+			path = twitchVLCTests;
+			sourceTree = "<group>";
+		};
+		E6CDB04E180F9B2300C6E736 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDB04F180F9B2300C6E736 /* twitchVLCTests-Info.plist */,
+				E6CDB050180F9B2300C6E736 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6CDB025180F9B2200C6E736 /* twitchVLC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CDB057180F9B2300C6E736 /* Build configuration list for PBXNativeTarget "twitchVLC" */;
+			buildPhases = (
+				E6CDB022180F9B2200C6E736 /* Sources */,
+				E6CDB023180F9B2200C6E736 /* Frameworks */,
+				E6CDB024180F9B2200C6E736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twitchVLC;
+			productName = twitchVLC;
+			productReference = E6CDB026180F9B2200C6E736 /* twitchVLC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6CDB046180F9B2300C6E736 /* twitchVLCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CDB05A180F9B2300C6E736 /* Build configuration list for PBXNativeTarget "twitchVLCTests" */;
+			buildPhases = (
+				E6CDB043180F9B2300C6E736 /* Sources */,
+				E6CDB044180F9B2300C6E736 /* Frameworks */,
+				E6CDB045180F9B2300C6E736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6CDB04C180F9B2300C6E736 /* PBXTargetDependency */,
+			);
+			name = twitchVLCTests;
+			productName = twitchVLCTests;
+			productReference = E6CDB047180F9B2300C6E736 /* twitchVLCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6CDB01E180F9B2200C6E736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tomás Migone";
+				TargetAttributes = {
+					E6CDB046180F9B2300C6E736 = {
+						TestTargetID = E6CDB025180F9B2200C6E736;
+					};
+				};
+			};
+			buildConfigurationList = E6CDB021180F9B2200C6E736 /* Build configuration list for PBXProject "twitchVLC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6CDB01D180F9B2200C6E736;
+			productRefGroup = E6CDB027180F9B2200C6E736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6CDB025180F9B2200C6E736 /* twitchVLC */,
+				E6CDB046180F9B2300C6E736 /* twitchVLCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6CDB024180F9B2200C6E736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CDB034180F9B2200C6E736 /* InfoPlist.strings in Resources */,
+				E6CDB042180F9B2300C6E736 /* Images.xcassets in Resources */,
+				E6CDB03A180F9B2200C6E736 /* Credits.rtf in Resources */,
+				E6CDB040180F9B2300C6E736 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CDB045180F9B2300C6E736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CDB052180F9B2300C6E736 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6CDB022180F9B2200C6E736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CDB03D180F9B2200C6E736 /* AppDelegate.m in Sources */,
+				E6CDB036180F9B2200C6E736 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CDB043180F9B2300C6E736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CDB054180F9B2300C6E736 /* twitchVLCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6CDB04C180F9B2300C6E736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6CDB025180F9B2200C6E736 /* twitchVLC */;
+			targetProxy = E6CDB04B180F9B2300C6E736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6CDB032180F9B2200C6E736 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CDB033180F9B2200C6E736 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6CDB038180F9B2200C6E736 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CDB039180F9B2200C6E736 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E6CDB03E180F9B2300C6E736 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CDB03F180F9B2300C6E736 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E6CDB050180F9B2300C6E736 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CDB051180F9B2300C6E736 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6CDB055180F9B2300C6E736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E6CDB056180F9B2300C6E736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E6CDB058180F9B2300C6E736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twitchVLC/twitchVLC-Prefix.pch";
+				INFOPLIST_FILE = "twitchVLC/twitchVLC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6CDB059180F9B2300C6E736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twitchVLC/twitchVLC-Prefix.pch";
+				INFOPLIST_FILE = "twitchVLC/twitchVLC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6CDB05B180F9B2300C6E736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/twitchVLC.app/Contents/MacOS/twitchVLC";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twitchVLC/twitchVLC-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "twitchVLCTests/twitchVLCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E6CDB05C180F9B2300C6E736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/twitchVLC.app/Contents/MacOS/twitchVLC";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twitchVLC/twitchVLC-Prefix.pch";
+				INFOPLIST_FILE = "twitchVLCTests/twitchVLCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6CDB021180F9B2200C6E736 /* Build configuration list for PBXProject "twitchVLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CDB055180F9B2300C6E736 /* Debug */,
+				E6CDB056180F9B2300C6E736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CDB057180F9B2300C6E736 /* Build configuration list for PBXNativeTarget "twitchVLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CDB058180F9B2300C6E736 /* Debug */,
+				E6CDB059180F9B2300C6E736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6CDB05A180F9B2300C6E736 /* Build configuration list for PBXNativeTarget "twitchVLCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CDB05B180F9B2300C6E736 /* Debug */,
+				E6CDB05C180F9B2300C6E736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6CDB01E180F9B2200C6E736 /* Project object */;
+}
