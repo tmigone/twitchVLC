@@ -18,6 +18,7 @@
 		E6CDB04A180F9B2300C6E736 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CDB029180F9B2200C6E736 /* Cocoa.framework */; };
 		E6CDB052180F9B2300C6E736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB050180F9B2300C6E736 /* InfoPlist.strings */; };
 		E6CDB054180F9B2300C6E736 /* twitchVLCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDB053180F9B2300C6E736 /* twitchVLCTests.m */; };
+		E6FB9B571810B99600FE001A /* twitchLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB9B561810B99600FE001A /* twitchLauncher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		E6CDB04F180F9B2300C6E736 /* twitchVLCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitchVLCTests-Info.plist"; sourceTree = "<group>"; };
 		E6CDB051180F9B2300C6E736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6CDB053180F9B2300C6E736 /* twitchVLCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitchVLCTests.m; sourceTree = "<group>"; };
+		E6FB9B551810B99600FE001A /* twitchLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twitchLauncher.h; sourceTree = "<group>"; };
+		E6FB9B561810B99600FE001A /* twitchLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twitchLauncher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				E6CDB03E180F9B2300C6E736 /* MainMenu.xib */,
 				E6CDB041180F9B2300C6E736 /* Images.xcassets */,
 				E6CDB030180F9B2200C6E736 /* Supporting Files */,
+				E6FB9B551810B99600FE001A /* twitchLauncher.h */,
+				E6FB9B561810B99600FE001A /* twitchLauncher.m */,
 			);
 			path = twitchVLC;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6CDB03D180F9B2200C6E736 /* AppDelegate.m in Sources */,
+				E6FB9B571810B99600FE001A /* twitchLauncher.m in Sources */,
 				E6CDB036180F9B2200C6E736 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +470,7 @@
 				E6CDB059180F9B2300C6E736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6CDB05A180F9B2300C6E736 /* Build configuration list for PBXNativeTarget "twitchVLCTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				E6CDB05C180F9B2300C6E736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
