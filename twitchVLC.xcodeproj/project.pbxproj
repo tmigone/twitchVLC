@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6CD90B21825EA170090AEB9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD90B11825EA170090AEB9 /* TableViewController.m */; };
+		E6CD90B51825EE1C0090AEB9 /* Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD90B41825EE1C0090AEB9 /* Stream.m */; };
 		E6CDB02A180F9B2200C6E736 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CDB029180F9B2200C6E736 /* Cocoa.framework */; };
 		E6CDB034180F9B2200C6E736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB032180F9B2200C6E736 /* InfoPlist.strings */; };
 		E6CDB036180F9B2200C6E736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDB035180F9B2200C6E736 /* main.m */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6CD90B01825EA170090AEB9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E6CD90B11825EA170090AEB9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E6CD90B31825EE1C0090AEB9 /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		E6CD90B41825EE1C0090AEB9 /* Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stream.m; sourceTree = "<group>"; };
 		E6CDB026180F9B2200C6E736 /* twitchVLC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitchVLC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CDB029180F9B2200C6E736 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E6CDB02C180F9B2200C6E736 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -119,6 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				E6CDB03B180F9B2200C6E736 /* AppDelegate.h */,
+				E6CD90B01825EA170090AEB9 /* TableViewController.h */,
+				E6CD90B11825EA170090AEB9 /* TableViewController.m */,
+				E6CD90B31825EE1C0090AEB9 /* Stream.h */,
+				E6CD90B41825EE1C0090AEB9 /* Stream.m */,
 				E6CDB03C180F9B2200C6E736 /* AppDelegate.m */,
 				E6CDB03E180F9B2300C6E736 /* MainMenu.xib */,
 				E6CDB041180F9B2300C6E736 /* Images.xcassets */,
@@ -260,6 +270,8 @@
 				E6CDB03D180F9B2200C6E736 /* AppDelegate.m in Sources */,
 				E6FB9B571810B99600FE001A /* twitchLauncher.m in Sources */,
 				E6CDB036180F9B2200C6E736 /* main.m in Sources */,
+				E6CD90B21825EA170090AEB9 /* TableViewController.m in Sources */,
+				E6CD90B51825EE1C0090AEB9 /* Stream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

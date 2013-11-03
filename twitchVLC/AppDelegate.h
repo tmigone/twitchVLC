@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import "twitchLauncher.h"
+#import "Stream.h"
+#import "TableViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 

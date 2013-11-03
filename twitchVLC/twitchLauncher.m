@@ -15,7 +15,8 @@
 {
     self = [super init];
     
-    self.channelName = @"wcs_america";
+    self.list = [[NSMutableArray alloc] init];
+    self.channelName = nil;
     self.token = nil;
     self.signature = nil;
     
@@ -24,6 +25,36 @@
     
     return self;
     
+}
+
++(NSMutableArray*)getAvailableStreams
+{
+    
+    NSString *urlString = [NSString stringWithFormat:@"%@", @"https://api.twitch.tv/kraken/search/streams?limit=15&q=%22starcraft%22"];
+    NSURL *url = [NSURL URLWithString: urlString];
+    
+    NSData *jsonData = [NSData dataWithContentsOfURL:url];
+    
+    NSDictionary *result;
+    NSError *error = nil;
+    
+    NSMutableArray* list = [[NSMutableArray alloc] init];
+    
+    if(jsonData != nil)
+    {
+        result = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&error];
+        
+        for(int i = 0; i<14; i++)
+        {
+            Stream *s = [[Stream alloc] init];
+            [s setName:result[@"streams"][i][@"channel"][@"name"]];
+            [s setViewerCount:(NSInteger)result[@"streams"][i][@"viewers"]];
+            [list addObject:s];
+        }
+
+    }
+    
+    return list;
 }
 
 -(NSError*)getStreamParameters

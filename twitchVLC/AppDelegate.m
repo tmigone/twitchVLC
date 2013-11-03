@@ -21,10 +21,14 @@
 
 -(IBAction)buttonPress:(id)sender
 {
-
+    
+    
+/*
     twitchLauncher *launcher = [[twitchLauncher alloc] initWithdefaultValues];
 
     NSError *paramError = [launcher getStreamParameters];
+    
+
     
     if(paramError == nil)
     {
@@ -37,7 +41,7 @@
         //[launcher parseM3U8];
         //[launcher launchVLC];
     }
-
+     */
     
 }
 

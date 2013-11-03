@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Stream.h"
 
 @interface twitchLauncher : NSObject
 
@@ -14,10 +15,13 @@
 @property   NSString *token;
 @property   NSString *signature;
 @property   NSString *tempM3U8;
+@property   NSMutableArray *list;
 
 
 -(id)initWithdefaultValues;
 
+
++(NSMutableArray*)getAvailableStreams;
 -(NSError*)getStreamParameters;
 -(NSError*)getM3U8;
 
